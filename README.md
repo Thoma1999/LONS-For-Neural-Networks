@@ -1,11 +1,11 @@
-# Local-optima-networks-for-NNs
+# Local Optima Networks for Neural Networks
 Generate local optima networks models on the loss landscape of neural networks
 
 
 <p align="center">
-  <img width="350" height="350" src="/docs/img/iris-relu-h1.jpg">
-  <img width="350" height="350" src="/docs/img/iris-sigmoid-h3.jpg">
-   <img width="350" height="350" src="/docs/img/showId.jpg">
+  <img width="350" height="330" src="/docs/img/iris-relu-h1.jpg">
+  <img width="350" height="330" src="/docs/img/iris-sigmoid-h3.jpg">
+   <img width="450" height="300" src="/docs/img/showId.jpg">
 </p>
 
 This repository a modified implementation of the paper
