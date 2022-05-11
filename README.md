@@ -37,13 +37,13 @@ num_runs = 100 # Define number of number of samples
 bsteps = 10000  # Define Basin-hopping steps
 step = 0.18 # Define step size
 x_tol = 1e-2 # Define X tolerance (Nodes within a distance of X in all dimensions are considered as the same node)
-F_tol = 1e-3  # Define F tolerance (Termination condition for LFBGS-B)
+f_tol = 1e-3  # Define F tolerance (Termination condition for LFBGS-B)
 use_jac = True # jac must be True for neural networks
 logs = True # Show logs
 niter_success = 1000 # Basin-hopping stops after n failed iterations
 
 # 4. Initialise and build LON
-mylon = LON.lonsSampler(name,myfunc, dimensions, num_runs, bounds, bsteps, step, x_tol, F_tol, use_jac, disp=logs, success=niter_success)
+mylon = LON.lonsSampler(name,myfunc, dimensions, num_runs, bounds, bsteps, step, x_tol, f_tol, use_jac, disp=logs, success=niter_success)
 mylon.run()
 
 # 5. View LON and metrics
